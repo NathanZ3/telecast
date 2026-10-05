@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>XHR</title>
+  </head>
+  <body>
+    <script>
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', '/api/stream?id=1');
+      xhr.onload = function () { window.__done = true; };
+      xhr.send();
+    </script>
+  </body>
+</html>

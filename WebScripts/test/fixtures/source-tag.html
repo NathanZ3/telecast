@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Source tag</title>
+  </head>
+  <body>
+    <script>
+      window.addEventListener('load', function () {
+        setTimeout(function () {
+          var video = document.createElement('video');
+          var source = document.createElement('source');
+          source.setAttribute('src', 'b.mp4');
+          source.setAttribute('type', 'video/mp4');
+          video.appendChild(source);
+          document.body.appendChild(video);
+        }, 50);
+      });
+    </script>
+  </body>
+</html>

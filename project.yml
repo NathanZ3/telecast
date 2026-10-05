@@ -22,6 +22,8 @@ targets:
       - path: TeleCast
         excludes:
           - Info.plist
+      - path: WebScripts/src/detector.js
+        buildPhase: resources
     dependencies:
       - package: CastKit
         product: CastCore

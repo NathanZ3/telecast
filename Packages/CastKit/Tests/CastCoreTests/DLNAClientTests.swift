@@ -12,15 +12,11 @@ final class FakeTransport: HTTPTransport, @unchecked Sendable {
     }
 
     var requests: [HTTPRequestSpec] {
-        lock.lock()
-        defer { lock.unlock() }
-        return recorded
+        lock.withLock { recorded }
     }
 
     func send(_ request: HTTPRequestSpec) async throws -> HTTPResponseData {
-        lock.lock()
-        recorded.append(request)
-        lock.unlock()
+        lock.withLock { recorded.append(request) }
         return responder(request)
     }
 }

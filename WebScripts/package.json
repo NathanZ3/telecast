@@ -1,0 +1,12 @@
+{
+  "name": "telecast-webscripts",
+  "private": true,
+  "type": "module",
+  "description": "Video detector injected by TeleCast in every frame of the in-app browser, with WebKit tests.",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0"
+  }
+}

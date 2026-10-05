@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Blob source</title>
+  </head>
+  <body>
+    <video id="v" muted></video>
+    <script>
+      var video = document.getElementById('v');
+      video.src = URL.createObjectURL(new Blob(['x'], { type: 'video/mp4' }));
+      window.__done = true;
+    </script>
+  </body>
+</html>

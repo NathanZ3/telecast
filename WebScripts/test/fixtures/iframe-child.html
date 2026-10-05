@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Embedded player</title>
+  </head>
+  <body>
+    <script>
+      fetch('/media/master.m3u8')
+        .then(function (response) { return response.text(); })
+        .then(function (text) { window.__text = text; });
+    </script>
+  </body>
+</html>
