@@ -22,6 +22,11 @@ targets:
       - path: TeleCast
         excludes:
           - Info.plist
+          - Resources/TestMedia
+          - Resources/TestMedia/**
+      - path: TeleCast/Resources/TestMedia
+        type: folder
+        buildPhase: resources
       - path: WebScripts/src/detector.js
         buildPhase: resources
     dependencies:

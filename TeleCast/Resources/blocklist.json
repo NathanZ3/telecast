@@ -1,0 +1,882 @@
+[
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?33across\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?a-ads\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ad-maven\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?ad\\.plus[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?adcash\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?adform\\.net[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?adition\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?admaven\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?adnium\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?adnxs\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?adsafeprotected\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?adsco\\.re[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?adservice\\.google\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?adskeeper\\.co\\.uk[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?adskeeper\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?adspyglass\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?adsrvr\\.org[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?adsterra\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?adsterratools\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?adxadserv\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?amazon-adsystem\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?aniview\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?bidswitch\\.net[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?bidvertiser\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?casalemedia\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?clarity\\.ms[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?clickadu\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?clickaine\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?connatix\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?contextweb\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?criteo\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?criteo\\.net[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?dolohen\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?doubleclick\\.net[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?doubleverify\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?evadav\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?exdynsrv\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?exoclick\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?exosrv\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?freewheel\\.tv[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?fwmrm\\.net[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?galaksion\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?google-analytics\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?googleadservices\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?googlesyndication\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?googletagmanager\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?googletagservices\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?gumgum\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?hilltopads\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?hilltopads\\.net[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?hotjar\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?imasdk\\.googleapis\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?indexww\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?innovid\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?juicyads\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?jwpltx\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?lijit\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?lkqd\\.net[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?mc\\.yandex\\.ru[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?media\\.net[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?mgid\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?moatads\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?monetag\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?notix\\.io[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?onclickads\\.net[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?onclkds\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?onesignal\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?openx\\.net[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?outbrain\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?plugrush\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?popads\\.net[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?popcash\\.net[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?popmyads\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?popunder\\.net[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?primis\\.tech[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?propellerads\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?propellerclick\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pubmatic\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?push\\.house[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pushground\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?pushwhy\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?quantcount\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?quantserve\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?realsrv\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?revcontent\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?richpush\\.co[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?rollerads\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?rubiconproject\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?scorecardresearch\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?sharethrough\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?smartadserver\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?sovrn\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?spotxchange\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?springserve\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?stickyadstv\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?taboola\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?teads\\.tv[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?trafficjunky\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?trafficjunky\\.net[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?trafficstars\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tremorhub\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?triplelift\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?tsyndicate\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?vdo\\.ai[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?vidazoo\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?whos\\.amung\\.us[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?yieldmo\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?zedo\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?zeroredirect1\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ },
+ {
+  "trigger": {
+   "url-filter": "^[htpsw]+:\\/\\/([a-z0-9-]+\\.)?zeroredirect2\\.com[\\/:&?]?"
+  },
+  "action": {
+   "type": "block"
+  }
+ }
+]

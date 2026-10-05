@@ -1,17 +1,32 @@
 import SwiftUI
-import CastCore
-import CastNet
 
 struct RootView: View {
+    @Environment(AppModel.self) private var app
+
     var body: some View {
-        VStack(spacing: 12) {
-            Image(systemName: "tv")
-                .font(.system(size: 56))
-            Text("TéléCast")
-                .font(.largeTitle.bold())
-            Text("CastNet \(CastNet.version) · \(MediaKind.hls.rawValue)")
-                .font(.footnote)
-                .foregroundStyle(.secondary)
-        }
+        @Bindable var routing = app
+        BrowserScreen()
+            .sheet(item: $routing.sheet) { sheet in
+                switch sheet {
+                case .videos:
+                    VideoListView()
+                case .devices:
+                    DevicePickerView()
+                case .remote:
+                    RemoteView()
+                case .settings:
+                    SettingsView()
+                }
+            }
+            .overlay(alignment: .top) {
+                if let toast = app.toast {
+                    ToastView(toast: toast) {
+                        app.toast = nil
+                    }
+                    .padding(.top, 52)
+                    .transition(.move(edge: .top).combined(with: .opacity))
+                }
+            }
+            .animation(.spring(duration: 0.3), value: app.toast)
     }
 }
