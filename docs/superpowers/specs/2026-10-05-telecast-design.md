@@ -225,7 +225,7 @@ Le relais et les pré-vérifications utilisent ce contexte.
   3. `xcodebuild` (`iphoneos`, sans signature) ;
   4. empaquetage `Payload/TeleCast.app` → `TeleCast.ipa`, publié comme artefact téléchargeable.
 - **Installation** : Sideloadly sous Windows + identifiant Apple gratuit ; l'appli est valable 7 jours (re-signature automatique possible) ; le **mode développeur** doit être activé sur l'iPhone. Alternative : compte développeur payant (99 €/an), avec validité d'un an et droit multicast à demander.
-- **Identifiant** : `com.ntrichet.telecast` (Sideloadly peut le modifier s'il est refusé). Nom affiché : **TéléCast**.
+- **Identifiant** : `fr.telecast.castapp`, sans donnée personnelle puisque le dépôt est public (Sideloadly peut le modifier s'il est refusé). Nom affiché : **TéléCast**.
 
 ## 7. Tests
 
