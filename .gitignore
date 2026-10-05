@@ -1,0 +1,26 @@
+# Xcode / SwiftPM
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+DerivedData/
+build/
+.build/
+.swiftpm/
+Packages/CastKit/.build/
+Packages/CastKit/.swiftpm/
+*.ipa
+Payload/
+
+# Node
+node_modules/
+WebScripts/test-results/
+WebScripts/playwright-report/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc
