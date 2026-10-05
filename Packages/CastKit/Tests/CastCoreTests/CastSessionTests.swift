@@ -146,7 +146,7 @@ final class CastSessionTests: XCTestCase {
                     onUpdate: { recorder.record($0) }, onSuccess: { recorder.success($0) })
     }
 
-    func waitFor(_ description: String, timeout: TimeInterval = 10, _ condition: () -> Bool) async {
+    func waitFor(_ description: String, timeout: TimeInterval = 10, _ condition: @escaping () -> Bool) async {
         let deadline = Date().addingTimeInterval(timeout)
         while Date() < deadline {
             if condition() { return }
