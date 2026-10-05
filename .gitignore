@@ -11,6 +11,7 @@ Packages/CastKit/.build/
 Packages/CastKit/.swiftpm/
 *.ipa
 Payload/
+dist/
 
 # Node
 node_modules/
